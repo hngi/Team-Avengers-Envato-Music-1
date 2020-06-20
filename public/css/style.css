@@ -3,3 +3,31 @@
   padding: 0;
 }
 
+body{
+	font-family: 'Montserrat' sans-serif;
+}
+
+/* Jumbotron */
+.jumbotron{
+	background-color: #222;
+	color: #DE0909;
+	border-radius: 0;
+}
+
+
+/* Print and Edit Button  modification */
+.btn-down{
+	background-color: #1DA1F2;
+	color: #fff;
+}
+.btn-down2{
+	background-color: #3B5998;
+	color: #fff;
+}
+
+.more-music-border{
+	border-bottom: 4px #DE0909 solid !important;
+
+}
+
+
