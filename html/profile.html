@@ -3,24 +3,294 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="\public\css\bootstrap.min.css" />
-    <link rel="stylesheet" href="\public\css\style.css" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../public/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../public/css/artisteProfile.css" />
+    <link rel="stylesheet" href="../public/css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <title>Artiste Profile</title>
   </head>
   <body>
     <!-- Your code here! -->
+    <form class="form-group mt-lg-5 d-none d-lg-block col-3 ml-auto mb-0 pb-0">
+      <input class="form-control" type="search" id="searchMenu" placeholder="search for songs, artistes/lyrics & more" aria-label="Search">
+    </form>
+    <div id="navBanner">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+        <a class="navbar-brand col-5" id="navBrand" href="#"><span class="text-danger">AV</span><span>MUSIC</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto" >
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Store</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Songs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="d-none d-md-block">
+      <h2 class="font-weight-bold ml-4 py-3">Artistes</h2>
+      </div>
+      <div class="bg-shade mx-3 my-5 d-none d-md-block">
+        <div class="song ml-5 pl-5">
+          <h6 class="ml-5 pl-5">Songs</h6>
+        </div>
+        <div class="container">
+          <div class="row col-12">
+            <div class="col-6">
+              <div class="bgHeader"></div>
+              <div class="container-fluid">
+                <div class="row bg-danger">
+                  <div class="col-8 mt-2 p-2">
+                    <h5 class="pl-5">Kendrick Lamar</h5>
+                  </div>
+                  <div class="col figure pt-2 ml-5">
+                    <img src="../public/img/player.png" class="img-fluid" alt="music player">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 py-3 px-5" style="background-color: #222222;">
+              <div class="row">
+                <figure class="col-2 mt-3">
+                  <img src="../public/img/image 4.png" alt="" class="img-fluid">
+                </figure>
+                <div class="col-3 mt-3">
+                  <h6>Duckworth</h6>
+                  <p>2018</p>
+                </div>
+                <div class="ml-auto">
+                  <i class="fa fa-caret-right" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="row">
+                <figure class="col-2 mt-3">
+                  <img src="../public/img/Vector.png" alt="" class="img-fluid">
+                </figure>
+                <div class="col-3 mt-3">
+                  <h6>Duckworth</h6>
+                  <p>2018</p>
+                </div>
+                <div class="ml-auto">
+                  <i class="fa fa-caret-right" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="row">
+                <figure class="col-2 mt-3">
+                  <img src="../public/img/image 5.png" alt="" class="img-fluid">
+                </figure>
+                <div class="col-3 mt-3">
+                  <h6>Duckworth</h6>
+                  <p>2018</p>
+                </div>
+                <div class="ml-auto">
+                  <i class="fa fa-caret-right" aria-hidden="true"></i>
+                </div>
+              </div>
+              <button class="btn rounded btn-danger px-3">
+                MORE
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="bg-ash p-5 m-4">
+          <h2 class="font-weight-bold ml-4 py-3 mb-3" style="color: #fff;">BIOGRAPHY</h2>
+          <h6>
+            Kendrick Lamar Duckworth is an American rapper, songwriter, record producer. He is regarded by many critics and contemporaries as one of the most influential artists of his generation, and often cited as one of the greatest rappers of all time, Lamar is also known as a member of the hip hop supergroup Black Hippy, alongside his TDE label-mates Ab-Soul, Jay Rock, and Schoolboy Q.
+          </h6>
+          <h6>
+            Raised in Compton, California, Lamar embarked on his musical career as a teenager under the stage name K-Dot, releasing a mixtape that garnered local attention and led to his signing with indie record label Top Dawg Entertainment (TDE). He began to gain recognition in 2010 after his first retail release, Overly Dedicated. The following year, he independently released his first studio album, Section.80, which included his debut single "HiiiPoWeR". By that time, he had amassed a large online following and collaborated with several prominent hip hop artists, including The Game, Busta Rhymes, and Snoop Dogg.
+          </h6>
+          <h6>
+            Lamar's major label debut album, Good Kid, M.A.A.D City, was released in 2012 to critical acclaim. It was later certified Platinum by the Recording Industry Association of America (RIAA). His third album To Pimp a Butterfly (2015) incorporated elements of funk, soul, jazz, and spoken word. It became his first number one album on the Billboard 200, and was the most acclaimed album of the 2010s. In 2016, Lamar released Untitled Unmastered, a collection of unreleased demos that originated during the recording sessions for To Pimp a Butterfly. He released his fourth album, Damn, in 2017 to further acclaim; its lead single "Humble" topped the US Billboard Hot 100, while the album became the first non-classical and non-jazz album to be awarded the Pulitzer Prize for Music.
+          </h6>
+          <h6>
+            Lamar has received many accolades over the course of his career, including 13 Grammy Awards, two American Music Awards, five Billboard Music Awards, a Brit Award, 11 MTV Video Music Awards, a Pulitzer Prize and an Academy Award nomination. In 2012, MTV named him the "Hottest MC in the Game" on their annual list. Time named him one of the 100 most influential people in the world in 2016. In 2015, he received the California State Senate's Generational Icon Award.
+          </h6>
+        </div>
+        <div class="bg-ash p-5 ml-4 col-6">
+          <div class="row">
+            <div class="col-8">
+              MANAGEMENT: TDE MANAGEMENT<br>
+              EMAIL: CONTACT@TDEMGT.COM
+            </div>
+            <div class="col-4 col-lg-6">
+              <button class="btn rounded btn-danger px-2 px-lg-3 mt-2">
+                BOOK NOW
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <h3 class="col-12 font-weight-bold py-3 mt-4" style="color: #fff;">Albums</h3>
+            <div class="col-6">
+              <figure>
+                <img src="../public/img/Vector (1).png" class="img-fluid" height="10px" alt="dj">
+              </figure>
+            </div>
+            <div class="col ml-5">
+              <i class="fa fa-caret-right" id="right"></i>
+            </div>
+          </div>
+        </div>
+        <footer class="mt-5">
+          <div class="row">
+            <div class="col-12 d-flex justify-content-center">
+              <form action="#" class="form-inline">
+                <input type="text" name="name" class="form-control" placeholder="Name">
+                <input type="email" name="email" class="form-control mx-4" placeholder="Email Address">
+                <button class="btn rounded btn-danger">
+                 Sign Up
+                </button>
+              </form>
+            </div>
+          </div>
+          <hr class="footerHr">
+          <div>
+            <h6 class="text-center">© Copyright 2020 AV Music | All Rights Reserved | HNGi7</h6>
+          </div>
+        </footer>
+      </div>
+    </div>
 
+    <!-- fro small screens -->
+
+    <div class="container-fluid bg-danger d-block d-md-none pl-4">
+      <div class="row p-2">
+        <div class="col-8 mt-2 p-2">
+          <h5>Kendrick Lamar</h5>
+        </div>
+        <div class="col-4 figure pt-2">
+          <img src="../public/img/player.png" class="img-fluid pl-5" alt="music player">
+        </div>
+      </div>
+    </div>
+    <div class="d-block d-md-none ">
+      <h5 class="ml-5 pl-5 mt-4 font-weight-bold">Songs</h5>
+      </div>
+      <div class="d-block d-md-none col-12 py-3 px-4">
+        <div class="row">
+          <figure class="col-2 mt-3">
+            <img src="../public/img/image 4.png" alt="" class="img-fluid">
+          </figure>
+          <div class="col-3 mt-3">
+            <h6 class="font-weight-normal">Duckworth</h6>
+            <p class="small">Kendrick Lamar</p>
+          </div>
+          <div class="ml-auto">
+            <i class="fa fa-caret-right" aria-hidden="true"></i>
+          </div>
+        </div>
+        <div class="row">
+          <figure class="col-2 mt-3">
+            <img src="../public/img/Vector.png" alt="" class="img-fluid">
+          </figure>
+          <div class="col-3 mt-3">
+            <h6 class="font-weight-normal">Love</h6>
+            <p class="small">Kendrick Lamar</p>
+          </div>
+          <div class="ml-auto">
+            <i class="fa fa-caret-right" aria-hidden="true"></i>
+          </div>
+        </div>
+        <div class="row">
+          <figure class="col-2 mt-3">
+            <img src="../public/img/image 5.png" alt="" class="img-fluid">
+          </figure>
+          <div class="col-3 mt-3">
+            <h6 class="font-weight-normal">Loyalty</h6>
+            <p class="small">Kendrick Lamar</p>
+          </div>
+          <div class="ml-auto">
+            <i class="fa fa-caret-right" aria-hidden="true"></i>
+          </div>
+        </div>
+        <button class="btn rounded btn-danger px-2 ml-5">
+          MORE
+        </button>
+        <div class="">
+          <h3 class="font-weight-bold py-3 mt-4" style="color: #fff;">BIOGRAPHY</h3>
+          <h6 class="small">
+            Kendrick Lamar Duckworth is an American rapper, songwriter, record producer. He is regarded by many critics and contemporaries as one of the most influential artists of his generation, and often cited as one of the greatest rappers of all time, Lamar is also known as a member of the hip hop supergroup Black Hippy, alongside his TDE label-mates Ab-Soul, Jay Rock, and Schoolboy Q.
+          </h6>
+          <h6 class="small">
+            Raised in Compton, California, Lamar embarked on his musical career as a teenager under the stage name K-Dot, releasing a mixtape that garnered local attention and led to his signing with indie record label Top Dawg Entertainment (TDE). He began to gain recognition in 2010 after his first retail release, Overly Dedicated. The following year, he independently released his first studio album, Section.80, which included his debut single "HiiiPoWeR". By that time, he had amassed a large online following and collaborated with several prominent hip hop artists, including The Game, Busta Rhymes, and Snoop Dogg.
+          </h6>
+          <h6 class="small">
+            Lamar's major label debut album, Good Kid, M.A.A.D City, was released in 2012 to critical acclaim. It was later certified Platinum by the Recording Industry Association of America (RIAA). His third album To Pimp a Butterfly (2015) incorporated elements of funk, soul, jazz, and spoken word. It became his first number one album on the Billboard 200, and was the most acclaimed album of the 2010s. In 2016, Lamar released Untitled Unmastered, a collection of unreleased demos that originated during the recording sessions for To Pimp a Butterfly. He released his fourth album, Damn, in 2017 to further acclaim; its lead single "Humble" topped the US Billboard Hot 100, while the album became the first non-classical and non-jazz album to be awarded the Pulitzer Prize for Music.
+          </h6>
+          <h6 class="small">
+            Lamar has received many accolades over the course of his career, including 13 Grammy Awards, two American Music Awards, five Billboard Music Awards, a Brit Award, 11 MTV Video Music Awards, a Pulitzer Prize and an Academy Award nomination. In 2012, MTV named him the "Hottest MC in the Game" on their annual list. Time named him one of the 100 most influential people in the world in 2016. In 2015, he received the California State Senate's Generational Icon Award.
+          </h6><br>
+          <h6>
+            MANAGEMENT: TDE MANAGEMENT<br>
+            EMAIL: CONTACT@TDEMGT.COM
+          </h6>
+          <button class="btn rounded btn-danger px-2 mt-2">
+            BOOK NOW
+          </button>
+        </div>
+        <div class="container">
+          <div class="row">
+            <h3 class="col-12 font-weight-bold py-3 mt-4 pl-4" style="color: #fff;">Albums</h3>
+            <div class="col-6">
+              <figure>
+                <img src="../public/img/Vector (1).png"  height="120px" alt="dj">
+              </figure>
+            </div>
+            <div class="col ml-5 mt-4">
+              <i class="fa fa-caret-right ml-5"></i>
+            </div>
+          </div>
+        </div>
+        <footer>
+          <form action="#" class="form-group">
+            <input type="text" name="name" class="form-control mb-2 mt-4" placeholder="Name">
+            <input type="email" name="email" class="form-control" placeholder="Email Address">
+            <button class="btn rounded btn-danger mt-4 btn-block">
+             Sign Up
+            </button>
+          </form>
+          <hr class="footerHr">
+          <div>
+            <h6 class="text-center">© Copyright 2020 AV Music | All Rights Reserved | HNGi7</h6>
+          </div>
+        </footer>
+          </div>
+        </div>
+      </div>
+    </div>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
       integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script src="\public\js\bootstrap.min.js"></script>
-    <script src="\public\js\app.js"></script>
+      crossorigin="anonymous"></script>
+    <script src="../public/js/bootstrap.min.js"></script>
+    <script src="../public/js/app.js"></script>
   </body>
 </html>
