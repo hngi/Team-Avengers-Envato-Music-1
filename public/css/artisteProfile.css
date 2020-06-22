@@ -65,12 +65,11 @@
       background-repeat: no-repeat;
       background-size: cover;
     }
-    nav {
+    #navBanner {
       background: url("../img/Vector.png");
+      background-repeat: no-repeat;
       background-size: cover;
-      height: 50vh !important;
-      padding: 0;
-      margin: 0;
+      height: 45vh !important;
     }
   }
   
