@@ -1,26 +1,200 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Charts</title>
-    <link rel="stylesheet" href="\public\css\bootstrap.min.css" />
-    <link rel="stylesheet" href="\public\css\style.css" />
+    <title>Charts Page</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!---Google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <!--Css Stylesheet-->
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <!-- Your code here! -->
+      <!--first div-->
+      <div class="container-fluid" id="first">
+        
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#" st> <strong id="fir">AV</strong> <strong id="sec">MUSIC</strong></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav navbar-nav mt-2 ml-auto mt-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="#" id="link">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" id="link">Store</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" id="link">Songs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" id="link">News</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" id="link">Gallery</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" id="link">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" id="link">Contact</a>
+                  </li>
+                  <form class="form-inline my-2 my-lg-0" id="form">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Search</button>
+    </form>
+              </ul>
+            </div>
+          </nav>
 
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script src="\public\js\bootstrap.min.js"></script>
-    <script src="\public\js\app.js"></script>
+          <!--Second div-->
+          <div class="container" id="second">
+            <div class="text-center" id="text">
+                <strong id="str">TOP</strong> <strong id="strt">CHARTS</strong>
+                <h6 class="nex">THIS WEEK ON THE CHART</h6>
+            </div>
+          </div>
+
+          <!--Third div-->
+          <div class="container-fluid" id="third">
+            <div class="flex-container">
+                <div data-aos="fade-right"><img src="img/Group 222.png" alt="" ></div>
+                <div></div>
+                <div data-aos="fade-left"><img src="img/Group 223.png" alt=""></div>  
+                <div></div>  
+                <div data-aos="fade-right"><img src="img/Group 224.png" alt=""></div>  
+                <div></div>
+                <div data-aos="fade-left"><img src="img/Group 226.png" alt=""></div>
+                <div></div>  
+                <div data-aos="fade-right"><img src="img/Group 227.png" alt=""></div>
+                <div></div>  
+                <div data-aos="fade-right"><img src="img/Group 224 (1).png" alt=""></div>
+                <div></div>  
+                
+              </div>
+            
+          </div>
+
+          <div class="text-center">
+          <audio controls src="04 Intentions (feat. Quavo) - (SongsLover.com).mp3"></audio>
+         </div>
+          <!--table container-->
+          <div class="container-fluid" id="fourth">
+
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col" id="line">THIS WEEK</th>
+                  <th scope="col">LAST WEEK</th>
+                  <th scope="col">PEAK</th>
+                  <th scope="col">DURATION</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row" id="one">1 <strong id="bold" style="font-size: 10px;">LSD <br> <i class="fa fa-arrow-right" aria-hidden="true" style="margin: 15px; margin: 15px 10px 40px 40px;"></i> A$AP Rocky</strong></th>
+                  <td id="week">1 <br> LAST <br> WEEK</td>
+                  <td id="week">4 <br> WEEK <br> at no. 1</td>
+                  <td id="week">30 <br> WEEKS <br> ON CHART    <img src="img/7dd9bfda23e2ecadd82f321d45b89003 1.png" alt="" width="30px" style="margin-top: -30px;"></td>
+                </tr>
+                <tr>
+                  <th scope="row" id="one">1 <strong id="bold" style="font-size: 10px;">LSD <br> <i class="fa fa-arrow-right" aria-hidden="true" style="margin: 15px; margin: 15px 10px 40px 40px;"></i> A$AP Rocky</strong></th>
+                  <td id="week">1 <br> LAST <br> WEEK</td>
+                  <td id="week">4 <br> WEEK <br> at no. 1</td>
+                  <td id="week">30 <br> WEEKS <br> ON CHART    <img src="img/7dd9bfda23e2ecadd82f321d45b89003 1.png" alt="" width="30px" style="margin-top: -30px;"></td>
+                </tr>
+                <tr>
+                  <th scope="row" id="one">1 <strong id="bold" style="font-size: 10px;">LSD <br> <i class="fa fa-arrow-right" aria-hidden="true" style="margin: 15px; margin: 15px 10px 40px 40px;"></i> A$AP Rocky</strong></th>
+                  <td id="week">1 <br> LAST <br> WEEK</td>
+                  <td id="week">4 <br> WEEK <br> at no. 1 </td>
+                  <td id="week">30 <br> WEEKS <br> ON CHART    <img src="img/7dd9bfda23e2ecadd82f321d45b89003 1.png" alt="" width="30px" style="margin-top: -30px;"></td>
+                </tr>
+                <tr>
+                  <th scope="row" id="one">1 <strong id="bold" style="font-size: 10px;">LSD <br> <i class="fa fa-arrow-right" aria-hidden="true" style="margin: 15px; margin: 15px 10px 40px 40px;"></i> A$AP Rocky</strong></th>
+                  <td id="week">1 <br> LAST <br> WEEK</td>
+                  <td id="week">4 <br> WEEK <br> at no. 1</td>
+                  <td id="week">30 <br> WEEKS <br> ON CHART    <img src="img/7dd9bfda23e2ecadd82f321d45b89003 1.png" alt="" width="30px" style="margin-top: -30px;"></td>
+                </tr>
+                <tr>
+                  <th scope="row" id="one">1 <strong id="bold" style="font-size: 10px;">LSD <br> <i class="fa fa-arrow-right" aria-hidden="true" style="margin: 15px; margin: 15px 10px 40px 40px;"></i> A$AP Rocky</strong></th>
+                  <td id="week">1 <br> LAST <br> WEEK</td>
+                  <td id="week">4 <br> WEEK <br> at no. 1</td>
+                  <td id="week">30 <br> WEEKS <br> ON CHART    <img src="img/7dd9bfda23e2ecadd82f321d45b89003 1.png" alt="" width="30px" style="margin-top: -30px;"></td>
+                </tr>
+                <tr>
+                  <th scope="row" id="one">1 <strong id="bold" style="font-size: 10px;">LSD <br> <i class="fa fa-arrow-right" aria-hidden="true" style="margin: 15px; margin: 15px 10px 40px 40px;"></i> A$AP Rocky</strong></th>
+                  <td id="week">1 <br> LAST <br> WEEK</td>
+                  <td id="week">4 <br> WEEK <br> at no. 1</td>
+                  <td id="week">30 <br> WEEKS <br> ON CHART    <img src="img/7dd9bfda23e2ecadd82f321d45b89003 1.png" alt="" width="30px" style="margin-top: -30px;"></td>
+                </tr>
+                <tr>
+                  <th scope="row" id="one">1 <strong id="bold" style="font-size: 10px;">LSD <br> <i class="fa fa-arrow-right" aria-hidden="true" style="margin: 15px; margin: 15px 10px 40px 40px;"></i> A$AP Rocky</strong></th>
+                  <td id="week">1 <br> LAST <br> WEEK</td>
+                  <td id="week">4 <br> WEEK <br> at no. 1</td>
+                  <td id="week">30 <br> WEEKS <br> ON CHART    <img src="img/7dd9bfda23e2ecadd82f321d45b89003 1.png" alt="" width="30px" style="margin-top: -30px;"></td>
+                </tr>
+                <tr>
+                  <th scope="row" id="one">1 <strong id="bold" style="font-size: 10px;">LSD <br> <i class="fa fa-arrow-right" aria-hidden="true" style="margin: 15px; margin: 15px 10px 40px 40px;"></i> A$AP Rocky</strong></th>
+                  <td id="week">1 <br> LAST <br> WEEK</td>
+                  <td id="week">4 <br> WEEK <br> at no. 1</td>
+                  <td id="week">30 <br> WEEKS <br> ON CHART    <img src="img/7dd9bfda23e2ecadd82f321d45b89003 1.png" alt="" width="30px" style="margin-top: -30px;"></td>
+                </tr>
+            
+              </tbody>
+            </table>
+          </div>
+
+          <div class="container-fluid text-center" id="pic">
+            <div class="lyr">
+              <i class="fa fa-quote-left" aria-hidden="true" id="egun" > Egungun be careful na express you dey go </i> <i class="fa fa-quote-right" aria-hidden="true"></i>
+            <p id="lyrics">LYRICS AND MUSIC ON A GO</p>
+            </div>
+
+            <button type="button" class="btn btn-danger">SEARCH</button>
+          </div>
+          
+          <div class="container-fluid text-center" id="end">
+            <input type="text" aria-label="First name" class="" placeholder="Name">  
+            <input type="text" aria-label="First name" class="" placeholder="Email Address">  
+            <button type="button" class="btn btn-danger">SEARCH</button>
+            <hr style="background-color: silver; margin-top: 30px;">
+            <i class="fa fa-copyright" aria-hidden="true" style="color: #8A8A8A;" id="copy">Copyright 2020 AV Music | All Rights Reserved | HNGi7</i>
+          </div>
+        
+      </div>
+
+
+     
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+          AOS.init();
+      </script>
+
+      <!--smooth scroll js-->
+     <script src="js/smooth-scroll.js"></script>
+     <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+      </script>
+
+      <!--wow animation-->
+      <script src="js/wow.min.js"></script>
+      <script>
+      new WOW().init();
+      </script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
 </html>

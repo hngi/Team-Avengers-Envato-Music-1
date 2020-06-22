@@ -1,0 +1,273 @@
+body{
+    background-color: #ffffff;
+}
+
+#first{
+    background-color: #222222;
+    height: 28vh;
+}
+/*darker #222222 background-color: #8A8A8A;*/
+
+/*header*/
+#fir{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 43px;
+    line-height: 64px;
+    color: #DE0909;
+}
+
+.navbar{
+    background-color: #222222;
+}
+
+.navbar-toggler-icon{
+    background-color: #ffffff;
+}
+
+.navbar-toggler{
+    background-color: #ffffff;
+}
+
+#sec{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 43px;
+line-height: 64px;
+color: #ffffff;
+}
+
+li, a{
+font-family: 'Montserrat';
+font-style: bold;
+font-weight: 300;
+font-size: 18px;
+line-height: 22px;
+margin: 2px;
+}
+
+#link{
+    color: #ffffff;
+}
+
+
+form{
+    margin-top: -60px;
+}
+
+.btn-outline-danger:hover{
+    padding-left: 30px;
+    border-radius: 10px;
+    border: solid white 2px;
+    background-color: #de090994;
+    color: #ffffff;
+}
+
+/*second container*/
+#second{
+    background-color: #8A8A8A;
+    width: 300px;
+    height: 60px;
+    margin-top: 10px;
+}
+
+#text{
+   padding-top: 7px;
+   
+}
+
+#str{
+    font-family: 'Poppins';
+    color: #DE0909;
+    font-size: 30px;
+}
+
+#strt{
+    font-family: 'Poppins';
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.nex{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 800;
+font-size: 15px;
+line-height: 75px;
+color: black;
+padding-top: 15px;
+}
+
+/*Third div*/
+#third{
+    margin-top: 80px;
+    
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
+  }
+  
+  .flex-container > div {
+    width: 100px;
+    text-align: center;
+
+    margin: 0.4px;
+    font-size: 30px;
+  }
+
+
+  table{
+    width: 1600px;
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+}
+
+td{
+    font-weight: 600;
+    font-family: 'Poppins';
+}
+
+#week{
+    font-size: 10px;
+    font-weight: bold;
+    font-family: 'Poppins';
+}
+
+th{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 24px;
+
+color: rgba(0, 0, 0, 0.8);
+}
+
+#one{
+    font-family: 'Poppins';
+font-weight: 700;
+font-size: 30px;
+line-height: 24px;
+font-weight: bolder;
+color: rgba(0, 0, 0, 0.8);
+left: 171px;
+top: 1133px;
+}
+
+#bold{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+hr{
+    color: red;
+}
+
+.fa-quote-left{
+    color: white;
+   
+}
+
+.fa-quote-right{
+    color: white;
+  
+}
+
+#lyrics{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: bold;
+font-size: 35px;
+line-height: 62px;
+color: white;
+
+}
+
+.lyr{
+padding-top: 69px;
+}
+
+button{
+    background-color: #DE0909;
+}
+
+#end{
+    background-color: #222222;
+    height: 100%;
+}
+#pic{
+    background-image: linear-gradient(rgba(128, 0, 0, 0.85),rgba(128, 0, 0, 0.85)),url('img/pic-13\ 1.png');
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    margin-top: 30px;
+    padding-top: 40px;
+}
+
+
+input{
+
+
+margin-top: 30px;
+margin: 10px;
+background: #FFFFFF;
+}
+
+  @media(max-width: 800px)
+  {
+    .flex-container {
+        display: flex;
+      
+        flex-wrap: wrap;
+        align-content: space-between;
+        margin-right: 73px;
+        margin: 30px;
+      }
+
+  }
+
+  @media(max-width: 1200px)
+  {
+    .flex-container {
+        display: flex;
+
+        flex-wrap: wrap;
+        margin-right: 1 1px;
+      }
+      #music{
+        background-color: #8a8a8a46;
+          padding-right: -60%;
+          margin-top: 30px;
+    }
+
+  }
+
+  
+  @media(max-width: 767px)
+  {
+    .flex-container {
+        display: flex;
+
+        flex-wrap: wrap;
+        align-content: space-between;
+       padding-right: 64px;
+      }
+      #music{
+        background-color: #8a8a8a46;
+          padding-right: -60%;
+          margin-top: 1200px;
+    }
+    #line{
+        text-decoration: underline;
+    }
+  }
+/*#E5E5E5*/
+/*dark bg color #8A8A8A*/
+/*light bg color #22222244*/
