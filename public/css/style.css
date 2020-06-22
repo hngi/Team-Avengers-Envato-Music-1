@@ -31,3 +31,15 @@ body{
 }
 
 
+@media (max-width: 468px){
+	.more-music-border{
+		font-size: 0.9rem;
+	}
+}
+
+@media (max-width: 1199px){
+	.more-music-border{
+		font-size: 1.4rem;
+		width: 100%;
+	}
+}
