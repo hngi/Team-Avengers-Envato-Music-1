@@ -18,6 +18,10 @@ body{
     color: #DE0909;
 }
 
+.navbar{
+    background-color: #222222;
+}
+
 .navbar-toggler-icon{
     background-color: #ffffff;
 }
