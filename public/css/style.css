@@ -30,16 +30,35 @@ body{
 
 }
 
-
-@media (max-width: 468px){
-	.more-music-border{
-		font-size: 0.9rem;
-	}
+.display_mobile{
+	display: none;
 }
 
-@media (max-width: 1199px){
-	.more-music-border{
-		font-size: 1.4rem;
-		width: 100%;
+
+
+hr{
+	
+	background-color: red;
+	height: 5px;
+	width: 83%;
+	margin-top: 25px;
+}
+
+
+@media (max-width: 768px){
+	hr{
+		width: 60%;
 	}
+
+	.display_mobile{
+		display: initial;
+		padding: 6px;
+
+	}
+
+	.display_desktop{
+		display: none;
+	}
+
+
 }
