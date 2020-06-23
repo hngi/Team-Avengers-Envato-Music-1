@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+header {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    font-size: 40px;
+}
+
+.header {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: #ffffff;
+}
