@@ -3,3 +3,34 @@
   padding: 0;
 }
 
+body{ margin: 10px 50px;}
+/* first section */
+#first{
+  background: url(../assets/img/lendrickkamar1st.png) no-repeat center center/cover; min-height: 100%; max-width: 100%;
+ 
+}
+.lendrick-content{
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 450px; font-weight: 300; font-size: 12px; line-height: 15px; color: #fff;
+}
+.lendrick-title{font-family: 'Poppins', sans-serif;font-weight:600; font-size:43px; line-height: 64px; color: #fff;}
+
+/* artist section */
+#artist{margin: 40px 0;}
+.artist-img{max-width: 100%;}
+.artist-img-content{ padding-top:20px; font-family: 'Montserrat', sans-serif; font-weight: 300; font-size: 12px; line-height: 15px; color: #222;}
+.artist-content{
+  font-family: 'Montserrat', sans-serif; font-weight: 300; font-size: 16px; line-height: 28px; color: #222;
+}
+.artist-title{font-family: 'Poppins', sans-serif;font-weight:600; font-size: 26px; line-height: 39px;}
+
+/* in case you missed it */
+.incaseyou-title{
+  font-family: 'Poppins', sans-serif; font-size: 26px; line-height: 39px;
+}
+
+/* more on avengers section */
+.artistnews{margin-top: 30px;}
+.artistnews-title{margin-top: 50px;}
+
+
